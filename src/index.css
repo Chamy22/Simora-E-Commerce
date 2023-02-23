@@ -7,11 +7,11 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
-  font-synthesis: none;
+  /* font-synthesis: none; */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+/*   -webkit-text-size-adjust: 100%; */
 }
 
 a {
@@ -66,3 +66,21 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }}
+  body{
+    display: flex;
+   justify-content: space-between;
+  }
+
+   .chakra-ui-light {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  } 
+  .cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .root{
+    width: 100%;
+  }

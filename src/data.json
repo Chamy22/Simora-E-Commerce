@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1 ,
+        "Name": "Primavera",
+        "price": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 3,
+        "category": "Short"
+      },
+      {
+        "id": 2 ,
+        "NameName": "Primavera",
+        "Precio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 4,
+        "category": "Short"
+      },
+      {
+        "id": 3 ,
+        "Name": "Primavera",
+        "Precio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 3,
+        "category": "Short"
+      },
+      {
+        "id": 4 ,
+        "Name": "Largo",
+        "Precio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 5,
+        "category": "Pantalon"
+      },
+      {
+        "id": 5 ,
+        "Name": "Largo",
+        "Precio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 3,
+        "category": "Pantalon"
+      },
+      {
+        "id": 6 ,
+        "Name": "Esmeralda",
+        "Precio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 3,
+        "category": "Blusa"
+      },
+      {
+        "id": 7 ,
+        "Name": "Esmeralda",
+        "Precio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 3,
+        "category": "Blusa"
+      },
+      {
+        "id": 8 ,
+        "Name": "Esmeralda",
+        "Precio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 3,
+        "category": "Blusa"
+      },
+      {
+        "id": 9 ,
+        "Name": "Corto",
+        "PrecioPrecio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 3,
+        "category": "Vestido"
+      },
+      {
+        "id": 10 ,
+        "Name": "Corto",
+        "Precio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 3,
+        "category": "Vestido"
+      },
+      {
+        "id": 11 ,
+        "Name": "Corto",
+        "Precio": 1000,
+        "description":
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+        "stock": 3,
+        "category": "Vestido"
+      }
+]
