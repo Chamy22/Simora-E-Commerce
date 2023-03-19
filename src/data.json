@@ -2,15 +2,15 @@
     {
         "id": 1 ,
         "Name": "Primavera",
-        "price": 1000,
+        "precio": 1000,
         "description":
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
+          "Short Primavera",
         "stock": 3,
         "category": "Short"
       },
       {
         "id": 2 ,
-        "NameName": "Primavera",
+        "Name": "Primavera",
         "Precio": 1000,
         "description":
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
@@ -74,7 +74,7 @@
       {
         "id": 9 ,
         "Name": "Corto",
-        "PrecioPrecio": 1000,
+        "Precio": 1000,
         "description":
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum deleniti aut dignissimos explicabo ab, cumque eligendi ducimus numquam quibusdam minima.",
         "stock": 3,

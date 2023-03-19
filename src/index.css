@@ -83,4 +83,19 @@ button:focus-visible {
   }
   .root{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .material-symbols-outlined {
+    display: flex;
+    justify-content: end;
+  }
+  .contador {
+    display: flex;
+    justify-content:end ;
+  }
+  .Menu {
+    display: grid;
+    justify-content: center;
+
   }

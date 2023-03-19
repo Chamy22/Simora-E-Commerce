@@ -1,23 +1,40 @@
 import {useState,useEffect} from 'react';
-import data from "../data.json";
+import Data from "../data.json";
 import ItemList from './ItemList';
-import {useParams} from "react-router-dom"
-import itemDetail from "./Item"
+import {useParams} from "react-router-dom";
+import React from 'react';
+import { Heading} from '@chakra-ui/react'; 
+ 
 
 const ItemListContainer = () => {
   const{category}= useParams();
-  const catFilter = data.filter ((ropa)=> ropa.category
+  const [Ropa, setRopa] = useState([]);
+
+  useEffect(()=>{
+    async function fetchData() {
+      try {
+        const response = await fetch(Data)
+        const Data = await response.json();
+        setRopa(data);
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    fetchData();
+   }, []);
+ 
+ 
+  const catFilter = Data.filter ((ropa)=> ropa.category
 === category);
 
   return (
-    <div>
-    <Center bg="#D6EAF8" h="100px" color="black">
-      <Heading as="h2" size="2xl">
-     Ropa
-      </Heading>
-    </Center>
-    {category ? <ItemList ropa={catFilter} /> : <ItemList ropa={Data} />}
+  
+   <div>
+  
+  {category ? <ItemList Ropa = {catFilter}/> : <ItemList Ropa={Ropa}/>}
+  
   </div>
+
 ); 
 };
 

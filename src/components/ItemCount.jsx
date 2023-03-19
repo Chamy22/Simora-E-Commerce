@@ -1,28 +1,26 @@
-/*  import {useState} from "react"
-import React from 'react'
-import {
-    Text,
-    ButtonGroup,
-    IconButton,
-    Tooltip,
-    Center,
-    Button,
-  } from "@chakra-ui/react";
-
+import {contador, useState} from 'react';
+import data from "../data.json";
 
 
 const ItemCount = () => {
-
+const [contador, setContador] =useState (0);
 const sumar = () => {
-  setContador (contador + 1)
+    setContador (contador +1 );
 };
-return(
-  <>
-  <p>{contador}</p>
-  <Button onClick = {sumar}> + </Button>
-  <Button onClick ={() => 
-  setContador(contador -1)}> - </Button>
-  </>
-)
+
+  return (
+    <div className='contador'>
+    <p>{contador}</p>
+    <button onClick={sumar}> + </button>
+     <button onClick={()=> {setContador (contador - 1);
+     }}> - </button>
+     <button onClick={()=>{ setContador (0);
+     }}>
+      Reset
+     </button>
+     
+    </div>
+  )
 }
- export default ItemCount   */
+
+export default ItemCount

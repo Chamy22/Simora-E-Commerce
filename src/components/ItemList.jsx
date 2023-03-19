@@ -1,25 +1,25 @@
-import Item from "./Item"
-import { Container } from "@chakra-ui/react"
+import React from "react";
+import Item from "./Item";
+import ropa from "../data.json";
 
-const ItemList = ({ropa}) => {
+const ItemList = () => {
   return (
-    <>
-   <Container maxW="container.sm" className="main-catalogue">
-        {bikes?.map((bike) => (
+    <div>
+        {ropa.map((ropa) => (
           <Item
-            key={ropa.id}
-            id={ropa.id}
-            name={ropa.name}
-            description={ropa.description}
-            price={ropa.price}
-            stock={ropa.stock}
-            category={ropa.category}
+          key={ropa.id}
+          id={ropa.id}
+          name={ropa.Name}
+          description={ropa.description}
+          stock={ropa.stock}
+          category={ropa.category}
+          precio={ropa.precio}
           />
-        ))}
-      </Container>
-    </>
+          ))}
+    </div>
   );
- 
+  
 };
 
+console.log (ropa);
 export default ItemList
