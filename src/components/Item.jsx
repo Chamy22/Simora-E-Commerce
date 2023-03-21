@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card,Image,Text, CardHeader, CardBody, CardFooter,Stack,Heading, Divider,Button,ButtonGroup} from '@chakra-ui/react'
 
-const Item = ({ Name, precio, description }) => {
+const Item = ({ Name , description }) => {
   return (
     <Card
     direction={{ base: 'column', sm: 'row' }}

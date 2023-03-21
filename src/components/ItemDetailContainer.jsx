@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import Data from "../data.json";
+import Data from "../Data.json";
 import { useParams } from "react-router-dom";
 
 
@@ -14,8 +14,8 @@ const ItemDetailContainer = () => {
     async function fetchData() {
       try {
         const response = await fetch(Data);
-        const data = await response.json();
-        setProductos(Data);
+        const Data = await response.json();
+        setRopa(Data);
       } catch (error) {
         console.log(error);
       }
@@ -24,8 +24,8 @@ const ItemDetailContainer = () => {
   }, []);
 
   const RopaFilter = Data.filter((Ropa) => Ropa.id === id);
-  return <ItemDetail Ropa={data}/> 
-  ;
+  return <ItemDetail Ropa={Data}/> 
+
 
 };
 

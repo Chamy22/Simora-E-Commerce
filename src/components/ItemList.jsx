@@ -1,19 +1,19 @@
 import React from "react";
 import Item from "./Item";
-import ropa from "../data.json";
+import Ropa from "../Data.json";
 
 const ItemList = () => {
   return (
     <div>
-        {ropa.map((ropa) => (
+        {Ropa?.map((Ropa) => (
           <Item
-          key={ropa.id}
-          id={ropa.id}
-          name={ropa.Name}
-          description={ropa.description}
-          stock={ropa.stock}
-          category={ropa.category}
-          precio={ropa.precio}
+          key={Ropa.id}
+          id={Ropa.id}
+          name={Ropa.Name}
+          description={Ropa.description}
+          stock={Ropa.stock}
+          category={Ropa.category}
+          precio={Ropa.precio}
           />
           ))}
     </div>
@@ -21,5 +21,5 @@ const ItemList = () => {
   
 };
 
-console.log (ropa);
+ console.log (Ropa); 
 export default ItemList

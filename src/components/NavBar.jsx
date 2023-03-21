@@ -15,32 +15,35 @@ const NavBar = () => {
       Catalogo
   </button>
   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <Link to={`/categoria/${"Short"}`}>
+    <Link to={`/category/${"Short"}`}>
     <a className="dropdown-item" href="#">Shorts</a>
     </Link>
-    <Link to={`/categoria/${"Pantalon"}`}>
+    <Link to={`/category/${"Pantalon"}`}>
     <a className="dropdown-item" href="#">Pantalon</a>
     </Link>
-    <Link to={`/categoria/${"Blusa"}`}>
+    <Link to={`/category/${"Blusa"}`}>
     <a className="dropdown-item" href="#">Blusa</a>
     </Link>
-    <Link to={`/categoria/${"Vestido"}`}>
+    <Link to={`/category/${"Vestido"}`}>
     <a className="dropdown-item" href="#">Vestido</a>
     </Link>
   </div>
 
 </div>
 <CartWidget />
+<div> 
+  <Link to= "/"> 
 <Flex>
   <Avatar src= {myImage} alt= "Logo" />
   <Box ml='3'>
     <Text fontWeight='bold'>
-      Simora
+    Simora 
     </Text>
     <Text fontSize='sm'>Echa a tu medida</Text>
   </Box>
 </Flex>
-
+</Link>
+</div>
 </div> 
 
 

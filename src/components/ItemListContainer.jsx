@@ -15,7 +15,7 @@ const ItemListContainer = () => {
       try {
         const response = await fetch(Data)
         const Data = await response.json();
-        setRopa(data);
+        setRopa(Data);
       } catch (error) {
         console.log(error)
       }
