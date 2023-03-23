@@ -3,6 +3,7 @@ import { Card,Image,Text, CardHeader, CardBody, CardFooter,Stack,Heading, Divide
 
 const Item = ({ Name , description }) => {
   return (
+    <>
     <Card
     direction={{ base: 'column', sm: 'row' }}
     overflow='hidden'
@@ -31,7 +32,7 @@ const Item = ({ Name , description }) => {
       </CardFooter>
     </Stack>
   </Card>
+</>
   )
 }
-
 export default Item

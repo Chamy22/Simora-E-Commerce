@@ -10,17 +10,26 @@ const ItemListContainer = () => {
   const{category}= useParams();
   const [Ropa, setRopa] = useState([]);
 
-  useEffect(()=>{
-    async function fetchData() {
-      try {
-        const response = await fetch(Data)
-        const Data = await response.json();
-        setRopa(Data);
-      } catch (error) {
-        console.log(error)
-      }
-    }
-    fetchData();
+  fetchData();
+  const getProductsByCategory = (category) => {
+    return new Promise((res) => {const productos = Data.filter(product => product.category === parseInt(category));
+      setTimeout(() => {
+          res(productos);
+      }, 2000);
+  });
+};
+  
+  
+async function fetchData() {
+  try {
+    const response = await fetch(Data)
+    const Data = await response.json();
+    setRopa(Data);
+  } catch (error) {
+    console.log(error)
+  }
+}
+useEffect(()=>{
    }, []);
  
  

@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Item from "./Item";
 import Ropa from "../Data.json";
 
@@ -22,4 +22,38 @@ const ItemList = () => {
 };
 
  console.log (Ropa); 
+export default ItemList */
+
+
+import Item from "./Item";
+import { Container } from "@chakra-ui/react";
+
+
+const ItemList = ({ Ropa }) => {
+  return (
+    <>
+    
+      <Container className="main-catalogue">
+        {Ropa?.map((ropas) => (
+          <Item
+            key={Ropa.id}
+            id={Ropa.id}
+            Name={Ropa.Name}
+            description={Ropa.description}
+            Precio={Ropa.Precio}
+            stock={Ropa.stock}
+            
+      
+          />
+        ))}
+      </Container>  
+
+      
+    </>
+  );
+};
+
+
 export default ItemList
+
+

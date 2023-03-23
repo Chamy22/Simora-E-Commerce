@@ -31,7 +31,7 @@ const NavBar = () => {
 
 </div>
 <CartWidget />
-<div> 
+<div className='logo'> 
   <Link to= "/"> 
 <Flex>
   <Avatar src= {myImage} alt= "Logo" />
